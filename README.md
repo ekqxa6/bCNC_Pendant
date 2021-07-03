@@ -4,7 +4,7 @@ Hand pulse generator for bCNC with USB interface
 ## Description
 This is Hand Pulse Generator(HPG) for bCNC using STM32F401 Developping board.
 
-![HPG with bCNC](https://raw.github.com/wiki/ekqxa6/bCNC_Pendant/appearance.jpg)
+![HPG with bCNC](images/appearance.jpg)
 
 bCNC has a keyboard shortcut for JOG operation. This HPG is sending key code for JOG using USB-HID.
 [Link](https://github.com/vlachoudis/bCNC/wiki/Jogging)
@@ -14,7 +14,7 @@ Additionally bCNC has short-cuts for Cycle resume and Feed Hold. Those are very 
 
 ## Circuit schematic
 
-![Schematic](https://raw.github.com/wiki/ekqxa6/bCNC_Pendant/drawing.png)
+![Schematic](images/drawing.png)
 
 OLED is connected to I2C 1 (PB8 and PB9)
 Rotary encoder is connected to TIM4 (PB7 and PB8)
